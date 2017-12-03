@@ -1,7 +1,6 @@
 
 # inclinometer
 
-- Pitch
-- Roll
-- Elevation (iPhone 6 or newer)
-- Direction
+- Pitch/Roll, orientationchange
+- Elevation, geolocation
+- Compass, geolocation

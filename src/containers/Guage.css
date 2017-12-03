@@ -1,0 +1,22 @@
+.gauge {
+  border-radius: 100%;
+  border: 10px solid tomato;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  line-height: 75px;
+  font-size: 28px;
+  position: relative;
+  text-shadow: 0 0 12px white;
+}
+
+.gauge::after {
+  content: '';
+  width: 100%;
+  display: block;
+  height: 2px;
+  background: black;
+  top: 50%;
+  position: absolute;
+  z-index: -1;
+}
