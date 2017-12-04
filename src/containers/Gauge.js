@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Guage.css';
+import './Gauge.css';
 
 class Guage extends Component {
   // constructor(props) {
@@ -9,7 +9,7 @@ class Guage extends Component {
 
   render() {
     return (
-      <div className="gauge">
+      <div className={this.props.className.concat(' gauge')}>
         {this.props.children}
       </div>
     );

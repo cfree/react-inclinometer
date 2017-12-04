@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import Guage from '../containers/Guage';
-// import './RollGuage.css';
+import Guage from '../containers/Gauge';
+import './RollGauge.css';
 
 class RollGuage extends Component {
   render() {
     return (
-      <Guage className="roll-gauge">
-        Roll
-      </Guage>
+      <Guage className="roll-gauge" />
     );
   }
 }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import Compass from './components/Compass';
-import RollGuage from './components/RollGuage';
-import PitchGuage from './components/PitchGuage';
+import RollGuage from './components/RollGauge';
+import PitchGuage from './components/PitchGauge';
 import Altimeter from './components/Altimeter';
 import './App.css';
 
