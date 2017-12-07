@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Guage from '../containers/Gauge';
-import './RollGauge.css';
+import '../App.css';
 
 class RollGuage extends Component {
   render() {

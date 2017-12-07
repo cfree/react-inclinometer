@@ -1,9 +1,23 @@
+.roll-gauge, .pitch-gauge {
+  position: relative;
+  margin: 20px;
+}
+
+.roll-gauge .gauge {
+  background: url('../images/jeep-rear.png') center center no-repeat;
+  background-size: 40% auto;
+}
+
+.pitch-gauge .gauge {
+  background: url('../images/jeep-side.png') center center no-repeat;
+  background-size: 70% auto;
+}
+
 .gauge {
   border-radius: 100%;
   border: 1px solid black;
-  margin: 20px;
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 250px;
   line-height: 170px;
   font-size: 16px;
   position: relative;
@@ -11,33 +25,16 @@
   text-transform: uppercase;
   font-weight: bold;
   display: inline-block;
+  position: relative;
+  border: 5px solid green;
 }
 
-.gauge::before {
-  content: '';
-  top: 50%;
-  left: -10px;
-  right: -10px;
-  height: 1px;
-  background: black;
-  z-index: -1;
+.earth {
   position: absolute;
-}
-
-.gauge::after {
-  content: '';
+  height: 50%;
   width: 100%;
-  display: block;
-  height: 100%;
-  top: -10px;
-  left: -10px;
-  position: absolute;
-  z-index: -2;
-  border-radius: 100%;
-  border: 10px solid tomato;
-  border-left-width: 10px;
-  border-bottom-width: 10px;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  transform: rotate(-45deg);
+  border-bottom: 2px solid black;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
